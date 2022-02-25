@@ -1,0 +1,11 @@
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\obj\Debug\Moonbase Alpha.csproj.AssemblyReference.cache
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\obj\Debug\Moonbase Alpha.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\obj\Debug\Moonbase_Alpha.Properties.Resources.resources
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\obj\Debug\Moonbase Alpha.csproj.GenerateResource.cache
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\obj\Debug\Moonbase Alpha.csproj.CoreCompileInputs.cache
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\bin\Debug\Moonbase Alpha.exe.config
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\bin\Debug\Moonbase Alpha.exe
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\bin\Debug\Moonbase Alpha.pdb
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\obj\Debug\Moonbase Alpha.exe
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\obj\Debug\Moonbase Alpha.pdb
+C:\Users\Tony\source\repos\Moonbase Alpha\Moonbase Alpha\obj\Debug\Moonbase_Alpha.FormMain.resources
