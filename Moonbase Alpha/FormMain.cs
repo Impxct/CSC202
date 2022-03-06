@@ -31,8 +31,24 @@ namespace Moonbase_Alpha
 
         private void labelDesription_Click(object sender, EventArgs e)
         {
-
-
+            //creates our obejct from classes.
+            //syntax for this is : Class name, Object Name.
+            ClassArea objectGeneralPurposeRoom = new ClassArea();
+            ClassArea objectLandingPad = new ClassArea();
+            ClassArea objectWestWingCommsRoom = new ClassArea();
+            ClassArea objectSouthCorridors = new ClassArea();
+            ClassArea objectEastLivingQuarters = new ClassArea();
+            //set Properties for all objects..
+            objectGeneralPurposeRoom.AreaDescription = "You are in the General Purpose Room. This room has a little of everything in it.";
+            objectGeneralPurposeRoom.AreaName = "General Purpose Room";
+            objectLandingPad.AreaDescription = "Eagle transporter on the North Landing Pad.";
+            objectLandingPad.AreaName = "North Landing Pad";
+            objectWestWingCommsRoom.AreaDescription = "This is the communications room.";
+            objectWestWingCommsRoom.AreaName = "West Wing Comms Room.";
+            objectSouthCorridors.AreaDescription = "Here are the main Corridors. Decide where you will go.";
+            objectSouthCorridors.AreaName = "Soutern Corridors";
+            objectEastLivingQuarters.AreaDescription = "This is your room! Get as comforatable as you'd like.";
+            objectEastLivingQuarters.AreaName = "Eastern Living Quarters.";
         }
 
         private void buttonNorth_Click(object sender, EventArgs e)
@@ -59,7 +75,7 @@ namespace Moonbase_Alpha
 
         private void buttonSouth_Click(object sender, EventArgs e)
         {
-            //this event is raised when the user clicks South button from the gpr
+            //this event is raised when the user clicks South button from the gpr 
             //changes area name
             textBoxAreaName.Text = "Soutern Corridors";
             //changes area description
