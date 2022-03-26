@@ -31,6 +31,8 @@
             this.GoButton = new System.Windows.Forms.Button();
             this.textBoxURL = new System.Windows.Forms.TextBox();
             this.webBrowserDisplay = new System.Windows.Forms.WebBrowser();
+            this.buttonPlaySpace = new System.Windows.Forms.Button();
+            this.buttonStopSpace = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // GoButton
@@ -59,6 +61,26 @@
             this.webBrowserDisplay.Size = new System.Drawing.Size(1812, 520);
             this.webBrowserDisplay.TabIndex = 2;
             // 
+            // buttonPlaySpace
+            // 
+            this.buttonPlaySpace.Location = new System.Drawing.Point(152, 65);
+            this.buttonPlaySpace.Name = "buttonPlaySpace";
+            this.buttonPlaySpace.Size = new System.Drawing.Size(75, 23);
+            this.buttonPlaySpace.TabIndex = 3;
+            this.buttonPlaySpace.Text = "Space";
+            this.buttonPlaySpace.UseVisualStyleBackColor = true;
+            this.buttonPlaySpace.Click += new System.EventHandler(this.buttonPlaySpace_Click);
+            // 
+            // buttonStopSpace
+            // 
+            this.buttonStopSpace.Location = new System.Drawing.Point(233, 65);
+            this.buttonStopSpace.Name = "buttonStopSpace";
+            this.buttonStopSpace.Size = new System.Drawing.Size(75, 23);
+            this.buttonStopSpace.TabIndex = 4;
+            this.buttonStopSpace.Text = "Stop";
+            this.buttonStopSpace.UseVisualStyleBackColor = true;
+            this.buttonStopSpace.Click += new System.EventHandler(this.buttonStopSpace_Click);
+            // 
             // MainBrowser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -66,6 +88,8 @@
             this.BackgroundImage = global::PocketBrowser.Properties.Resources.space_pulsar_homepage_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1836, 632);
+            this.Controls.Add(this.buttonStopSpace);
+            this.Controls.Add(this.buttonPlaySpace);
             this.Controls.Add(this.webBrowserDisplay);
             this.Controls.Add(this.textBoxURL);
             this.Controls.Add(this.GoButton);
@@ -75,12 +99,11 @@
             this.PerformLayout();
 
         }
-
         #endregion
-
         private System.Windows.Forms.Button GoButton;
         private System.Windows.Forms.TextBox textBoxURL;
         private System.Windows.Forms.WebBrowser webBrowserDisplay;
+        private System.Windows.Forms.Button buttonPlaySpace;
+        private System.Windows.Forms.Button buttonStopSpace;
     }
-}
-
+} 
